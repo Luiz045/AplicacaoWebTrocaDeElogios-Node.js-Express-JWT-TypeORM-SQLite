@@ -8,5 +8,6 @@ Esta aplicção permite:
  - Consulta de usuarios e Tags disponiveis -> get(/listusers), get(/listtags) -> parametros recebidos: ()
  - Consulta de elogios enviados ou recebidos ->get(/sentcompliments), get(/receivedcompliments) -> parametros recebidos:()
 
-O código contem apenas o back-end do servidor, use o Insomnia para fazer os requests.  
+O código contem apenas o back-end do servidor, use o Insomnia para fazer os requests.
+Para acessar as rotas que não sejam "/users" ou "/login", o usuário precisa estar autenticado.(usar o token gerado na criação do usuario para fazer as requests).
 Para iniciar o servidor, basta digitar o comando "npm i" para baixar as dependencias e depois digitar "yarn dev".
